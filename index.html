@@ -3,6 +3,13 @@
 	<head>
 		<link rel="stylesheet" href="css/styles.css">
 		<link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<script src="lib/jquery-3.4.1.min.js"></script>
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+		<script src="js/custom.js"></script>
 		<title>Abhinav's website</title>
 	</head>
 	<body>
@@ -11,8 +18,12 @@
 			<p class="intro-line-2"><strong>ABHINAV JAIN</strong></p>
 		</div>
 		
-		<div class="parallax"></div>
+		<div class="parallax">
+			<a href="#introduction" class="scroll-down" onclick="onScrollButtonClick()">
+				<span class="glyphicon glyphicon-chevron-down"></span>
+			</a>
+		</div>
 
-		<div class="under-construction-parallax"></div>
+		<div id="introduction" class="under-construction-parallax"></div>
 	</body>
 </html>

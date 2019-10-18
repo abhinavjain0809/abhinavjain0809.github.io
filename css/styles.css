@@ -68,3 +68,20 @@ body, html {
   }
 }
 
+.scroll-down {
+	height: 80px;
+    width: 110px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+    background-color: #222222;
+    text-align: center;
+    z-index: 6;
+}
+
+.glyphicon {
+    color: #FFFFFF;
+    font-size: 30px;
+    padding-top: 28px;
+}
