@@ -1,7 +1,7 @@
 body, html {
 	height: 100%;
 	margin: 0;
-	font-family: "lato";
+	font-family: "lato", sans-serif !important;
 }
 
 #intro-name {
@@ -26,7 +26,6 @@ body, html {
 
 .intro-line-2 {
 	font-size: 64px;
-	font-style: bold;
 	font-weight: 700;
 	color: white;
 	text-align: center;
@@ -44,7 +43,7 @@ body, html {
 	text-shadow: none;
 }
 
-.parallax {
+.landing-page-parallax {
 	background-image: url("../resources/img/opener-img.jpg");
 	height: 100%;
 	background-attachment: fixed;
@@ -53,7 +52,49 @@ body, html {
 	background-size: cover;
 }
 
-.under-construction-parallax {
+.about-me-parallax {
+	background-image: linear-gradient(rgba(202, 202, 202, 0.6), rgba(0,0,0,0)), url("../resources/img/about-me-background.jpg");
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -16px;
+}
+
+.page-title {
+	font-size: 56px;
+	font-weight: 700;
+	color: darkslategray;
+	text-align: center;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	text-size-adjust: 100%;
+	text-transform: none !important;
+	overflow-wrap: break-word;
+	margin-top: 16px;
+	padding-top: 32px;
+}
+
+.page-title::before, .page-title::after {
+	content: "\00a0\00a0\23AF\23AF\23AF\23AF\00a0\00a0";
+	font-style: normal;
+	font-weight: 100;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.page-content {
+	padding: 64px 32px;
+	font-size: 32px;
+	color: black;
+	text-align: center;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	text-size-adjust: 100%;
+	text-transform: none !important;
+	overflow-wrap: break-word;
+	margin-bottom: 8px;
+}
+
+.end-parallax {
 	background-image: url("../resources/img/page-under-construction-funny-cartoon-workers.png");
 	height: 100%;
 	background-attachment: fixed;
@@ -63,21 +104,23 @@ body, html {
 }
 
 @media only screen and (max-device-width: 1366px) {
-  .parallax {
+  .landing-page-parallax, .about-me-parallax, .end-parallax {
     background-attachment: scroll;
   }
 }
 
-.scroll-down {
+.scroller {
 	height: 80px;
     width: 110px;
     display: block;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     right: 5%;
     background-color: #222222;
     text-align: center;
     z-index: 6;
+    animation: bounce 1s ease infinite;
+    cursor: pointer;
 }
 
 .glyphicon {
