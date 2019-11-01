@@ -53,7 +53,7 @@ body, html {
 }
 
 .about-me-parallax {
-	background-image: linear-gradient(rgba(202, 202, 202, 0.6), rgba(0,0,0,0)), url("../resources/img/about-me-background.jpg");
+	background-image: linear-gradient(rgba(189, 195, 199, 0.6), rgba(0,0,0,0.1)), url("../resources/img/about-me-background.png");
 	height: 100%;
 	background-attachment: fixed;
 	background-position: center;
@@ -63,9 +63,9 @@ body, html {
 }
 
 .page-title {
-	font-size: 56px;
+	font-size: 64px;
 	font-weight: 700;
-	color: darkslategray;
+	color: #34495e;
 	text-align: center;
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 	text-size-adjust: 100%;
@@ -103,7 +103,7 @@ body, html {
 	background-size: cover;
 }
 
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 1080px) {
   .landing-page-parallax, .about-me-parallax, .end-parallax {
     background-attachment: scroll;
   }
@@ -116,15 +116,53 @@ body, html {
     position: fixed;
     bottom: 0px;
     right: 5%;
-    background-color: #222222;
+    background-color: #2c3e50;
     text-align: center;
     z-index: 6;
-    animation: bounce 1s ease infinite;
     cursor: pointer;
+    transition: transform 0.1s;
+    border-radius: 5px 5px 0 0;
+}
+
+.scroller:hover {
+	transform: scale(1.10);
 }
 
 .glyphicon {
     color: #FFFFFF;
     font-size: 30px;
     padding-top: 28px;
+}
+
+.about-me-content {
+	font-size: 28px;
+}
+
+.about-me-pointers {
+	text-align: center;
+	list-style: none;
+}
+
+.focus-text {
+	color: #c0392b;
+    font-size: 48px;
+}
+
+.img-open-quote {
+	height: 100px;
+    width: 100px;
+}
+
+.img-open-quote-container {
+	margin-left: 25%;
+}
+
+.img-close-quote {
+	height: 100px;
+    width: 100px;
+}
+
+.img-close-quote-container {
+	float: right;
+	margin-right: 25%;
 }
