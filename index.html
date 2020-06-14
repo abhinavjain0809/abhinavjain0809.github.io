@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="css/styles.css">
-		<link rel="stylesheet" href="css/styles-non-retina.css">
-		<link rel="stylesheet" href="css/styles-mobile.css">
+		<link rel="stylesheet" href="css/styles-v2.css">
 		<link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		<script src="lib/jquery-3.4.1.min.js"></script>
 
@@ -11,41 +9,64 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
+		<!-- fullPage.js -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.extensions.min.js">
+		</script>
+
 		<script src="js/custom.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css"/>
 		<title>Abhinav's website</title>
 	</head>
 	<body>
-		<div class="scroller" onclick="onScrollButtonClick()">
-			<span class="glyphicon glyphicon-chevron-down"></span>
-		</div>
+		<ul id="navbar">
+			<span data-menuanchor="about-me-page" class="navbar-option">
+				<a href="#about-me-page">ABOUT ME</a>
+			</span>
+			<span data-menuanchor="work-life-page" class="navbar-option">
+				<a href="#work-life-page">WORK LIFE</a>
+			</span>
+			<span data-menuanchor="personal-space-page" class="navbar-option">
+				<a href="#personal-space-page">PERSONAL SPACE</a>
+			</span>
+			<span data-menuanchor="hire-me-page" class="navbar-option">
+				<a href="#hire-me-page">HIRE ME</a>
+			</span>
+		</ul>
 		
-		<div class="landing-page-parallax">
-			<div id="intro-name">
-				<p class="intro-line-1">Hey, I'm</p>
-				<p class="intro-line-2"><strong>ABHINAV JAIN</strong></p>
+		<div id="fullpage">
+		    <div id="intro-name" class="section" data-anchor="intro-page">
+				<div>
+					<p class="intro-line-1">Hey, I'm</p>
+					<p class="intro-line-2"><strong>ABHINAV JAIN</strong></p>
+				</div>
 			</div>
-		</div>
+		    
+		    <div id="about-me" class="section" data-anchor="about-me-page">
+		        <!-- <div class="slide" data-anchor="slide1">Two 1</div>
+		        <div class="slide" data-anchor="slide2">Two 2</div> -->
+		        <div class="page-title"><strong>A little bit about me</strong></div>
+				<div class="about-me-content">
+					<div class="img-open-quote-container">
+						<img class="img-open-quote" src="resources/img/quote-open-mark.png" />
+					</div>
+					<ul class="about-me-pointers">
+						<li><strong class="focus-text">CSE Graduate</strong> from NIT Durgapur</li>
+						<li><strong class="focus-text">3 years</strong> old in the world of software</li>
+						<li>Stints at <strong class="focus-text">Ola</strong> and <strong class="focus-text">Hotstar</strong></li>
+						<li><strong class="focus-text">Teacher</strong> at heart</li>
+						<li><strong class="focus-text">Badminton</strong> buff</li>
+						<li><strong class="focus-text">Marathon runner</strong></li>
+					</ul>
+					<div class="img-close-quote-container">
+						<img class="img-close-quote" src="resources/img/quote-close-mark.png" />
+					</div>
+			    </div>
+			</div>
 
-		<div id="introduction" class="about-me-parallax">
-			<div class="page-title"><strong>A little bit about me</strong></div>
-			<div class="about-me-content">
-				<div class="img-open-quote-container">
-					<img class="img-open-quote" src="resources/img/quote-open-mark.png" />
-				</div>
-				<ul class="about-me-pointers">
-					<li><strong class="focus-text">CSE Graduate</strong> from NIT Durgapur</li>
-					<li><strong class="focus-text">3 years</strong> old in the world of software</li>
-					<li>Stints at <strong class="focus-text">Ola</strong> and <strong class="focus-text">Hotstar</strong></li>
-					<li><strong class="focus-text">Teacher</strong> at heart</li>
-					<li><strong class="focus-text">Badminton</strong> buff</li>
-					<li><strong class="focus-text">Marathon runner</strong></li>
-				</ul>
-				<div class="img-close-quote-container">
-					<img class="img-close-quote" src="resources/img/quote-close-mark.png" />
-				</div>
-             </div>
+		    <div id="work-life" class="section" data-anchor="work-life-page"></div>
+		    <div id="personal-space" class="section" data-anchor="personal-space-page"></div>
+		    <div id="hire-me" class="section" data-anchor="hire-me-page"></div>
 		</div>
-
-		<div id="introduction" class="end-parallax"></div>
 	</body>
 </html>
