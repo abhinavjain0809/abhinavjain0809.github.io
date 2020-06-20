@@ -1,6 +1,9 @@
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 799px) {
 	body, html {
+		height: 100%;
+		margin: 0;
 		font-family: "lato", sans-serif !important;
+		min-width: 500px;
 	}
 
 	#intro-name {
@@ -13,20 +16,19 @@
 		font-style: italic;
 		font-weight: 400;
 		color: white;
-		text-align: left;
+		text-align: center;
 		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 		text-size-adjust: 100%;
 		text-transform: none !important;
 		overflow-wrap: break-word;
 		margin-bottom: 8px;
-	    padding-left: 310px;
 	}
 
 	.intro-line-2 {
 		font-size: 64px;
 		font-weight: 700;
 		color: white;
-		text-align: left;
+		text-align: center;
 		text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 		text-size-adjust: 100%;
 		text-transform: none !important;
@@ -34,32 +36,25 @@
 		margin-top: 16px;
 	}
 
-	.intro-line-2::before, .intro-line-2::after {
-		content: "\00a0\00a0\23AF\23AF\23AF\23AF\00a0\00a0";
-		font-style: normal;
-		font-weight: 100;
-		text-shadow: none;
-	}
-
 	#about-me {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.1)), url("../resources/img/about-me-background.png");
 		/*background-image: linear-gradient(rgba(189, 195, 199, 0.6), rgba(0,0,0,0.1)), url("../resources/img/about-me-background.png");*/
-		background-size: cover;
+		background-size: contain;
 	}
 
 	#work-life {
-	  	background-image: url("../resources/img/page-under-construction-funny-cartoon-workers.png");
-	  	background-size: cover;
+	  	background-image: url("../resources/img/page-under-construction-funny-cartoon-workers-mobile.png");
+	  	background-size: contain;
 	}
 
 	#personal-space {
-	  	background-image: url("../resources/img/page-under-construction-funny-cartoon-workers.png");
-	  	background-size: cover;
+	  	background-image: url("../resources/img/page-under-construction-funny-cartoon-workers-mobile.png");
+	  	background-size: contain;
 	}
 
 	#hire-me {
-	  	background-image: url("../resources/img/page-under-construction-funny-cartoon-workers.png");
-	  	background-size: cover;
+	  	background-image: url("../resources/img/page-under-construction-funny-cartoon-workers-mobile.png");
+	  	background-size: contain;
 	}
 
 	#navbar {
@@ -79,12 +74,13 @@
 		padding-bottom: 16px;
 		padding-right: 16px;
 		padding-left: 32px;
+		font-size: 16px;
 	}
 
 	.navbar-option a {
 		text-decoration: none;
 		color: #f1faee;
-		font-size: 24px;
+		font-size: 16px;
 	}
 
 	.navbar-option a:hover {
@@ -93,7 +89,7 @@
 	}
 
 	.page-title {
-		font-size: 64px;
+		font-size: 48px;
 		font-weight: 700;
 		color: #34495e;
 		text-align: center;
@@ -101,19 +97,10 @@
 		text-size-adjust: 100%;
 		text-transform: none !important;
 		overflow-wrap: break-word;
-		margin-top: 16px;
-		padding-top: 32px;
-	}
-
-	.page-title::before, .page-title::after {
-		content: "\00a0\00a0\23AF\23AF\23AF\23AF\00a0\00a0";
-		font-style: normal;
-		font-weight: 100;
-		text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 	}
 
 	.about-me-content {
-		font-size: 28px;
+		font-size: 24px;
 	}
 
 	.about-me-pointers {
@@ -123,26 +110,21 @@
 
 	.focus-text {
 		color: #c0392b;
-	    font-size: 48px;
+	    font-size: 40px;
 	}
 
-	.img-open-quote {
-		height: 100px;
-	    width: 100px;
+	.img-open-quote, .img-close-quote {
+		height: 75px;
+	    width: 75px;
 	}
 
 	.img-open-quote-container {
-		margin-left: 25%;
+		margin-left: 5%;
 		text-align: left;
-	}
-
-	.img-close-quote {
-		height: 100px;
-	    width: 100px;
 	}
 
 	.img-close-quote-container {
 		float: right;
-		margin-right: 25%;
+		margin-right: 5%;
 	}
 }
