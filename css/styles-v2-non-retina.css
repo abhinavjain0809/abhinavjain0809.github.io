@@ -1,9 +1,10 @@
-@media only screen and (max-width: 799px) {
+@media screen and (max-width: 800px), screen and (max-height: 800px) {
 	body, html {
 		height: 100%;
 		margin: 0;
 		font-family: "lato", sans-serif !important;
 		min-width: 500px;
+		min-height: 500px;
 	}
 
 	#intro-name {
@@ -121,10 +122,12 @@
 	.img-open-quote-container {
 		margin-left: 5%;
 		text-align: left;
+		display: none;
 	}
 
 	.img-close-quote-container {
 		float: right;
 		margin-right: 5%;
+		display: none;
 	}
 }

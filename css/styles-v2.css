@@ -1,6 +1,8 @@
-@media only screen and (min-width: 800px) {
+@media screen and (min-width: 800px), screen and (min-height: 800px) {
 	body, html {
 		font-family: "lato", sans-serif !important;
+		min-width: 500px;
+		min-height: 500px;
 	}
 
 	#intro-name {
