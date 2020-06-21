@@ -43,12 +43,20 @@
 		background-size: contain;
 	}
 
-	#work-life {
-	  	background-image: url("../resources/img/page-under-construction-funny-cartoon-workers-mobile.png");
-	  	background-size: contain;
+	#work {
+	  	background-image: url("../resources/img/work-bg-1.jpg");
+	  	background-size: cover;
 	}
 
-	#personal-space {
+	.fp-controlArrow.fp-next {
+	    border-width: 24px 0 24px 32px !important;
+	}
+
+	.fp-controlArrow.fp-prev {
+	    border-width: 24px 32px 24px 0 !important;
+	}
+
+	#blog {
 	  	background-image: url("../resources/img/page-under-construction-funny-cartoon-workers-mobile.png");
 	  	background-size: contain;
 	}
@@ -71,11 +79,13 @@
 
 	.navbar-option {
 		float: left;
-		padding-top: 16px;
-		padding-bottom: 16px;
-		padding-right: 16px;
-		padding-left: 32px;
 		font-size: 16px;
+		margin-left: 32px;
+    	margin-top: 16px;
+	}
+
+	.navbar-option div {
+		padding: 8px;
 	}
 
 	.navbar-option a {
@@ -84,9 +94,15 @@
 		font-size: 16px;
 	}
 
-	.navbar-option a:hover {
+	.navbar-option a:hover, .navbar-option a:active, .navbar-option a:visited, .navbar-option a:focus {
 		text-decoration: none;
-		color: #A8DADC;
+		color: #f1faee;
+	}
+
+	.selected-navbar-option {
+		border: solid 2px #333533;
+		background-color: #242423;
+		border-radius: 16px;
 	}
 
 	.page-title {
@@ -98,6 +114,7 @@
 		text-size-adjust: 100%;
 		text-transform: none !important;
 		overflow-wrap: break-word;
+		padding-bottom: 32px;
 	}
 
 	.about-me-content {
@@ -129,5 +146,10 @@
 		float: right;
 		margin-right: 5%;
 		display: none;
+	}
+
+	.slide {
+		text-align: center;
+		font-size: 48px;
 	}
 }
