@@ -63,8 +63,9 @@
 	}
 
 	#blog {
-	  	background-image: url("../resources/img/page-under-construction-funny-cartoon-workers.png");
+	  	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.1)), url("../resources/img/blog_0_bg.jpg");
 	  	background-size: cover;
+	  	background-repeat: no-repeat;
 	}
 
 	#hire-me {
@@ -108,6 +109,52 @@
 		border: solid 2px #333533;
 		background-color: #242423;
 		border-radius: 16px;
+	}
+
+	#blog-category-wrapper {
+		float: right;
+	}
+
+	.blog-category-text {
+		float: left;
+		margin-top: 39px;
+	    color: #242423;
+	}
+
+	#blog-category {
+		float: right;
+		margin-right: 32px;
+		margin-top: 24px;
+	}
+
+	#blog-category button {
+		color: #f1faee;
+		background-color: transparent !important;
+		font-size: 24px !important;
+		border: none !important;
+		outline: none !important;
+	}
+
+	#blog-category button:focus {
+		box-shadow: none !important;
+	}
+
+	.hide {
+		display: none !important;
+	}
+
+	.dropdown-menu {
+		padding: 0px !important;
+	}
+
+	.dropdown-item {
+		padding: 16px !important;
+	}
+
+	.dropdown-item.active, .dropdown-item:focus, .dropdown-item:active {
+		color: #f1faee !important;
+		background-color: #242423 !important;
+		outline: none !important;
 	}
 
 	.page-title {
