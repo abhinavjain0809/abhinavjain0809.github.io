@@ -51,6 +51,36 @@ var constants = {
 		}],
 
 		cupid_tales: [{
+			title: "The Best",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_the_best.gif",
+			publishedOn: "May 27, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/05/the-best.html"
+		},
+		{
+			title: "The little things she does #1",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_little_things_1.gif",
+			publishedOn: "May 20, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/05/the-little-things-she-does.html"
+		},
+		{
+			title: "Stupid or cupid?",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_stupid_cupid.gif",
+			publishedOn: "May 16, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/05/stupid-or-cupid.html"
+		},
+		{
+			title: "The second woman",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_other_woman.gif",
+			publishedOn: "May 14, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/05/the-second-woman.html"
+		},
+		{
+			title: "The day he sang!",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_battu_sings.gif",
+			publishedOn: "May 13, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/05/the-day-he-sang.html"
+		},
+		{
 			title: "The Final Goodbye?",
 			thumbnailUrl: "resources/img/blog/blog_cupid_tales_final_goodbye.gif",
 			publishedOn: "May 11, 2017",
