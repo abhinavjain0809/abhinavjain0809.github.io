@@ -50,7 +50,24 @@ var constants = {
 			deeplink: "https://www.tripoto.com/varkala/trips/varkala-a-soulful-journey-5c5f20e6d0084"
 		}],
 
-		cupid_tales: []
+		cupid_tales: [{
+			title: "The Final Goodbye?",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_final_goodbye.gif",
+			publishedOn: "May 11, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/05/the-final-goodbye_11.html"
+		},
+		{
+			title: "The worried girlfriend",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_worried_girlfriend.gif",
+			publishedOn: "May 10, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/05/the-worried-girlfriend.html"
+		},
+		{
+			title: "And he met her!",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_he_met_her.gif",
+			publishedOn: "May 10, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/05/and-he-met-her.html"
+		}]
 	},
 
 	blogPostsPerSlide: 4
