@@ -6,6 +6,7 @@ $(document).ready(function() {
 
 	// Call this method to populate the content for tech (default) blog page on page load
   	populateSlides('tech');
+  	changeBackgroundImage('tech');
 
   	// Called when cycling through categories on the blogs page
   	$('.blog-category-select').on('changed.bs.select', function (e, clickedIndex, isSelected, previousValue) {
@@ -106,6 +107,11 @@ function populateSlides(categoryName) {
 }
 
 function changeBackgroundImage(categoryName) {
-	var imgName = 'blog_' + categoryName + '_bg.jpg';
+	var imgNameSuffix = '_bg.jpg';
+	var isMobileScreen = document.getElementById("blog").offsetWidth < 600;
+	if (isMobileScreen) {
+		imgNameSuffix = '_mobile_bg.jpg';
+	}
+	var imgName = 'blog_' + categoryName + imgNameSuffix;
 	document.getElementById("blog").style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.1)), url('resources/img/" + imgName + "')";
 }
