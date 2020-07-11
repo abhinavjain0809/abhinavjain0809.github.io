@@ -41,6 +41,7 @@ function initFullPage() {
 		}
 	});
 
+	console.clear();
 }
 
 function getCategoryName(clickedIndex) {
