@@ -40,7 +40,7 @@
 
 	#about-me {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.1)), url("../resources/img/about-me-background.png");
-		background-size: contain;
+		background-size: cover;
 	}
 
 	#work {
@@ -64,7 +64,7 @@
 
 	#hire-me {
 	  	background-image: url("../resources/img/page-under-construction-funny-cartoon-workers.png");
-	  	background-size: contain;
+	  	background-size: cover;
 	}
 
 	#navbar {
