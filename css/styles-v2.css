@@ -45,7 +45,6 @@
 
 	#about-me {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.1)), url("../resources/img/about-me-background.png");
-		/*background-image: linear-gradient(rgba(189, 195, 199, 0.6), rgba(0,0,0,0.1)), url("../resources/img/about-me-background.png");*/
 		background-size: cover;
 	}
 
