@@ -8,7 +8,7 @@
 	}
 
 	#intro-name {
-	  	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.1)), url("../resources/img/opener-img-mobile.jpg");
+	  	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.1)), url("../resources/img/opener-img.jpg");
 	  	background-size: cover;
 	}
 
@@ -40,7 +40,6 @@
 
 	#about-me {
 		background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.1)), url("../resources/img/about-me-background.png");
-		/*background-image: linear-gradient(rgba(189, 195, 199, 0.6), rgba(0,0,0,0.1)), url("../resources/img/about-me-background.png");*/
 		background-size: contain;
 	}
 
@@ -224,6 +223,9 @@
 		font-size: 24px;
 		text-align: left;
     	padding-left: 8px;
+    	white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
 	}
 
 	.blog-post-subtext {
@@ -238,8 +240,8 @@
 	}
 
 	.blog-post-img {
-		width: 96px;
-	    height: 96px;
+		width: 64px;
+	    height: 64px;
 	    border-radius: 50%;
 	}
 
@@ -247,7 +249,7 @@
 		float: right;
 		text-align: left;
 		width: 85%;
-    	padding-top: 24px;
+    	padding-top: 8px;
     	padding-left: 8px;
     	padding-bottom: 8px;
 	}

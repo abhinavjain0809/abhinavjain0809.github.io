@@ -239,6 +239,9 @@
 		font-size: 26px;
 		text-align: left;
     	padding-left: 16px;
+    	white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
 	}
 
 	.blog-post-subtext {
@@ -264,6 +267,6 @@
 		width: 85%;
     	padding-top: 24px;
     	padding-left: 8px;
-    	padding-bottom: 8px;
+    	padding-bottom: 24px;
 	}
 }
