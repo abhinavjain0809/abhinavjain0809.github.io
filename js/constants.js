@@ -7,7 +7,13 @@ var constants = {
 
 	allBlogCategoryData: {
 		tech: [{
-			title: "A complete guide to setting up Master and Slave (or multiple) Datasources in Spring",
+			title: "Scaling subscriptions at Hostar",
+			thumbnailUrl: "resources/img/blog/blog_tech_scaling_subscriptions.jpg",
+			publishedOn: "Jun 19, 2020",
+			deeplink: "https://blog.hotstar.com/scaling-subscriptions-cache-for-cash-4c5836bd6a6f"
+		},
+		{
+			title: "Setting up Master and Slave Datasources in Spring",
 			thumbnailUrl: "resources/img/blog/blog_tech_spring_master_slave_datasources.jpg",
 			publishedOn: "Dec 30, 2019",
 			deeplink: "https://medium.com/swlh/a-complete-guide-to-setting-up-multiple-datasources-in-spring-8296d4ff0935"
