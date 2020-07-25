@@ -57,6 +57,48 @@ var constants = {
 		}],
 
 		cupid_tales: [{
+			title: "Autocowrecks!!",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_autocowrecks.gif",
+			publishedOn: "June 29, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/06/autocowrecks.html"
+		},
+		{
+			title: "They are not talking!",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_not_talking.gif",
+			publishedOn: "June 24, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/06/they-are-not-talking.html"
+		},
+		{
+			title: "That slice of pizza",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_slice_of_pizza.gif",
+			publishedOn: "June 19, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/06/that-slice-of-pizza.html"
+		},
+		{
+			title: "The little things she does #2",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_little_things_2.gif",
+			publishedOn: "June 16, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/06/the-little-things-she-does-2.html"
+		},
+		{
+			title: "The Sweet Almonds",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_sweet_almonds.gif",
+			publishedOn: "June 14, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/06/the-sweet-almonds.html"
+		},
+		{
+			title: "House or home?",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_house_home.gif",
+			publishedOn: "June 10, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/06/house-or-home.html"
+		},
+		{
+			title: "Now and Then",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_now_then.gif",
+			publishedOn: "June 04, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/06/now-and-then.html"
+		},
+		{
 			title: "The Best",
 			thumbnailUrl: "resources/img/blog/blog_cupid_tales_the_best.gif",
 			publishedOn: "May 27, 2017",
