@@ -67,7 +67,7 @@
 	}
 
 	#hire-me {
-	  	background-image: url("../resources/img/page-under-construction-funny-cartoon-workers-mobile.png");
+	  	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.1)), url("../resources/img/hire-me-background.png");
 	  	background-size: cover;
 	}
 
@@ -252,5 +252,35 @@
     	padding-top: 18px;
     	padding-left: 40px;
     	padding-bottom: 18px;
+	}
+
+	.contacts-container {
+		margin: 32px 24px 32px 24px;
+	    border-bottom: solid 8px black;
+	    padding-bottom: 32px;
+	}
+
+	.contacts-row {
+		text-align: center;
+	}
+
+	.contact-icon-container {
+		padding-left: 16px;
+		width: 15%;
+	}
+
+	.contact-icon-img {
+		width: 96px;
+	    height: 96px;
+	    border-radius: 50%;
+	    margin: 16px;
+	}
+
+	.contact-email-container {
+	    text-align: center;
+	    font-size: 28px;
+	    font-weight: bold;
+	    color: white;
+	    text-shadow: 2px 2px #242423;
 	}
 }
