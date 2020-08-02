@@ -268,4 +268,8 @@
     	padding-left: 8px;
     	padding-bottom: 24px;
 	}
+
+	.contacts-row {
+		visibility: hidden;
+	}
 }
