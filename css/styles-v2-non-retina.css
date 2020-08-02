@@ -254,8 +254,8 @@
     	padding-bottom: 8px;
 	}
 
-	.contacts-row {
-		visibility: hidden;
+	.contacts-container, .contact-email-container {
+		display: none;
 	}
 
 	/*.contact-icon-img {
