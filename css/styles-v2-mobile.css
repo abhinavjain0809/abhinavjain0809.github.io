@@ -67,7 +67,7 @@
 	}
 
 	#hire-me {
-	  	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.1)), url("../resources/img/hire-me-background.png");
+	  	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.1)), url("../resources/img/hire-me-background-mobile.png");
 	  	background-size: cover;
 	}
 

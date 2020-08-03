@@ -63,7 +63,7 @@
 	}
 
 	#hire-me {
-	  	background-image: url("../resources/img/page-under-construction-funny-cartoon-workers.png");
+	  	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.1)), url("../resources/img/hire-me-background.jpg");
 	  	background-size: cover;
 	}
 
@@ -254,22 +254,43 @@
     	padding-bottom: 8px;
 	}
 
-	.contacts-container, .contact-email-container {
-		display: none;
-	}
-
-	/*.contact-icon-img {
+	.contact-icon-img {
 		width: 108px;
 	    height: 108px;
+	    margin: 16px;
 	    border-radius: 50%;
-	    filter: grayscale(100%);
-		-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-	/*}
+	}
 
 	.contact-icon-img:hover {
 		filter: drop-shadow(2px 4px 6px black);
 		-webkit-filter: drop-shadow(2px 4px 6px black);
 		transform: scale(1.03);
     	transition: all .2s ease-in-out;
-	}*/
+	}
+
+	.contacts-container {
+		margin: 32px 140px 32px 140px;
+	    padding-bottom: 32px;
+	}
+
+	.contacts-row {
+		text-align: center;
+	}
+
+	.contact-icon-container {
+		padding-left: 16px;
+		width: 15%;
+	}
+
+	.contact-email-container {
+	    text-align: center;
+	    font-size: 28px;
+	    font-weight: bold;
+	    color: black;
+	}
+
+	.contact-email-content {
+		border-top: solid 4px black;
+    	padding-top: 32px;
+	}
 }
