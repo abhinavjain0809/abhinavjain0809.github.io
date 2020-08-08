@@ -293,4 +293,26 @@
 		border-top: solid 4px black;
     	padding-top: 32px;
 	}
+
+	/* We do not want the modal focus background */
+	.modal-backdrop {
+		z-index: -1000 !important;
+	}
+
+	.modal-backdrop.show {
+		opacity: 0 !important;
+	}
+
+	.modal-content {
+		position: fixed !important;
+		right: 32px !important;
+	    bottom: 32px !important;
+	    min-width: 300px !important;
+	    width: 300px !important;
+	    background-color: #F9FCFB !important;
+	}
+
+	.modal-body {
+		color: #242423 !important;
+	}
 }

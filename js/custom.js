@@ -115,3 +115,18 @@ function changeBackgroundImage(categoryName) {
 	var imgName = 'blog_' + categoryName + imgNameSuffix;
 	document.getElementById("blog").style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.1)), url('resources/img/" + imgName + "')";
 }
+
+function copyEmailAddressToClipboard() {
+	console.log('hello');
+	const el = document.createElement('textarea');
+	el.innerHTML = 'abhinavjain0809@gmail.com';
+	document.body.appendChild(el);
+	el.select();
+	document.execCommand('copy');
+	document.body.removeChild(el);
+
+	$("#info-modal").modal({
+		backdrop: 'static'
+	});
+	setTimeout(function() {$('#info-modal').modal('hide');}, constants['infoModalTimeout']);
+}
