@@ -148,5 +148,6 @@ var constants = {
 		}]
 	},
 
-	blogPostsPerSlide: 4
+	blogPostsPerSlide: 4,
+	infoModalTimeout: 4000
 }
