@@ -57,6 +57,30 @@ var constants = {
 		}],
 
 		cupid_tales: [{
+			title: "Homecoming",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_homecoming.gif",
+			publishedOn: "July 22, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/07/homecoming.html"
+		},
+		{
+			title: "Occupational hazards",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_occupational_hazards.gif",
+			publishedOn: "July 15, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/07/occupational-hazards.html"
+		},
+		{
+			title: "10 Days to go",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_10_days.gif",
+			publishedOn: "July 12, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/07/10-days-to-go.html"
+		},
+		{
+			title: "The Lucky Charm",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_lucky_charm.jpg",
+			publishedOn: "July 07, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/07/the-lucky-charm.html"
+		},
+		{
 			title: "Autocowrecks!!",
 			thumbnailUrl: "resources/img/blog/blog_cupid_tales_autocowrecks.gif",
 			publishedOn: "June 29, 2017",
