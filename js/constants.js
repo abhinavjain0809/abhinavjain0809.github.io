@@ -57,69 +57,81 @@ var constants = {
 		}],
 
 		cupid_tales: [{
+			title: "The late night date",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_late_night_date.gif",
+			publishedOn: "Aug 22, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/08/the-late-night-date.html"
+		},
+		{
+			title: "Dawn To Dark",
+			thumbnailUrl: "resources/img/blog/blog_cupid_tales_dawn_to_dark.gif",
+			publishedOn: "Aug 10, 2017",
+			deeplink: "https://thecupidtales.blogspot.com/2017/08/dawn-to-dark.html"
+		},
+		{
 			title: "Homecoming",
 			thumbnailUrl: "resources/img/blog/blog_cupid_tales_homecoming.gif",
-			publishedOn: "July 22, 2017",
+			publishedOn: "Jul 22, 2017",
 			deeplink: "https://thecupidtales.blogspot.com/2017/07/homecoming.html"
 		},
 		{
 			title: "Occupational hazards",
 			thumbnailUrl: "resources/img/blog/blog_cupid_tales_occupational_hazards.gif",
-			publishedOn: "July 15, 2017",
+			publishedOn: "Jul 15, 2017",
 			deeplink: "https://thecupidtales.blogspot.com/2017/07/occupational-hazards.html"
 		},
 		{
 			title: "10 Days to go",
 			thumbnailUrl: "resources/img/blog/blog_cupid_tales_10_days.gif",
-			publishedOn: "July 12, 2017",
+			publishedOn: "Jul 12, 2017",
 			deeplink: "https://thecupidtales.blogspot.com/2017/07/10-days-to-go.html"
 		},
 		{
 			title: "The Lucky Charm",
 			thumbnailUrl: "resources/img/blog/blog_cupid_tales_lucky_charm.jpg",
-			publishedOn: "July 07, 2017",
+			publishedOn: "Jul 07, 2017",
 			deeplink: "https://thecupidtales.blogspot.com/2017/07/the-lucky-charm.html"
 		},
 		{
 			title: "Autocowrecks!!",
 			thumbnailUrl: "resources/img/blog/blog_cupid_tales_autocowrecks.gif",
-			publishedOn: "June 29, 2017",
+			publishedOn: "Jun 29, 2017",
 			deeplink: "https://thecupidtales.blogspot.com/2017/06/autocowrecks.html"
 		},
 		{
 			title: "They are not talking!",
 			thumbnailUrl: "resources/img/blog/blog_cupid_tales_not_talking.gif",
-			publishedOn: "June 24, 2017",
+			publishedOn: "Jun 24, 2017",
 			deeplink: "https://thecupidtales.blogspot.com/2017/06/they-are-not-talking.html"
 		},
 		{
 			title: "That slice of pizza",
 			thumbnailUrl: "resources/img/blog/blog_cupid_tales_slice_of_pizza.gif",
-			publishedOn: "June 19, 2017",
+			publishedOn: "Jun 19, 2017",
 			deeplink: "https://thecupidtales.blogspot.com/2017/06/that-slice-of-pizza.html"
 		},
 		{
 			title: "The little things she does #2",
 			thumbnailUrl: "resources/img/blog/blog_cupid_tales_little_things_2.gif",
-			publishedOn: "June 16, 2017",
+			publishedOn: "Jun 16, 2017",
 			deeplink: "https://thecupidtales.blogspot.com/2017/06/the-little-things-she-does-2.html"
 		},
 		{
 			title: "The Sweet Almonds",
 			thumbnailUrl: "resources/img/blog/blog_cupid_tales_sweet_almonds.gif",
-			publishedOn: "June 14, 2017",
+			publishedOn: "Jun 14, 2017",
 			deeplink: "https://thecupidtales.blogspot.com/2017/06/the-sweet-almonds.html"
 		},
 		{
 			title: "House or home?",
 			thumbnailUrl: "resources/img/blog/blog_cupid_tales_house_home.gif",
-			publishedOn: "June 10, 2017",
+			publishedOn: "Jun 10, 2017",
 			deeplink: "https://thecupidtales.blogspot.com/2017/06/house-or-home.html"
 		},
 		{
 			title: "Now and Then",
 			thumbnailUrl: "resources/img/blog/blog_cupid_tales_now_then.gif",
-			publishedOn: "June 04, 2017",
+			publishedOn: "Jun 04, 2017",
 			deeplink: "https://thecupidtales.blogspot.com/2017/06/now-and-then.html"
 		},
 		{
