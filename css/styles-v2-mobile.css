@@ -207,7 +207,7 @@
 		font-size: 48px;
 	}
 
-	.blog-post {
+	.blog-post, .work-company {
 		width: 400px;
 		height: 96px;
 		margin: auto;
@@ -219,7 +219,7 @@
 		margin-bottom: 16px;
 	}
 
-	.blog-post-title {
+	.blog-post-title, .work-company-name {
 		font-size: 16px;
 		text-align: left;
     	padding-left: 0px;
@@ -234,19 +234,19 @@
     	padding-left: 0px;
 	}
 
-	.blog-post-img-container {
+	.blog-post-img-container, .work-company-img-container {
 		padding-left: 16px;
 		width: 15%;
 		float: left;
 	}
 
-	.blog-post-img {
+	.blog-post-img, .work-company-img {
 		width: 64px;
 	    height: 64px;
 	    border-radius: 50%;
 	}
 
-	.blog-post-desc-container {
+	.blog-post-desc-container, .work-company-container {
 		float: right;
 		text-align: left;
 		width: 85%;
@@ -305,5 +305,19 @@
 
 	.modal-body {
 		color: #242423 !important;
+	}
+
+	.work-subtext {
+		font-size: 12px;
+    	padding-left: 0;
+	}
+
+	.work-subtext-left {
+		float: left;
+	}
+
+	.work-subtext-right {
+		float: right;
+		padding-right: 48px;
 	}
 }
