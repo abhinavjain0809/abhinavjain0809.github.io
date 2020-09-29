@@ -200,7 +200,7 @@
 		font-size: 48px;
 	}
 
-	.blog-post {
+	.blog-post, .work-company {
 		width: 1190px;
 		margin: auto;
 		padding-top: 16px;
@@ -219,7 +219,7 @@
     	transition: all .2s ease-in-out;
 	}
 
-	.blog-post-title {
+	.blog-post-title, .work-company-name {
 		font-size: 24px;
 		text-align: left;
     	padding-left: 8px;
@@ -234,18 +234,18 @@
     	padding-left: 8px;
 	}
 
-	.blog-post-img-container {
+	.blog-post-img-container, .work-company-img-container {
 		padding-left: 16px;
 		width: 15%;
 	}
 
-	.blog-post-img {
+	.blog-post-img, .work-company-img {
 		width: 64px;
 	    height: 64px;
 	    border-radius: 50%;
 	}
 
-	.blog-post-desc-container {
+	.blog-post-desc-container, .work-company-container {
 		float: right;
 		text-align: left;
 		width: 85%;
@@ -314,5 +314,19 @@
 
 	.modal-body {
 		color: #242423 !important;
+	}
+
+	.work-subtext {
+		font-size: 16px;
+    	padding-left: 8px;
+	}
+
+	.work-subtext-left {
+		float: left;
+	}
+
+	.work-subtext-right {
+		float: right;
+		padding-right: 48px;
 	}
 }
