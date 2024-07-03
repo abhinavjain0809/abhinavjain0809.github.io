@@ -17,6 +17,12 @@ var constants = {
 			thumbnailUrl: "resources/img/blog/blog_tech_spring_master_slave_datasources.jpg",
 			publishedOn: "Dec 30, 2019",
 			deeplink: "https://medium.com/swlh/a-complete-guide-to-setting-up-multiple-datasources-in-spring-8296d4ff0935"
+		},
+		{
+			title: "Datacenter migration for already operational Canada and Great Britain regions",
+			thumbnailUrl: "resources/img/blog/blog_tech_datacenter_migration.jpg",
+			publishedOn: "Jun 04, 2024",
+			deeplink: "https://prezi.com/view/Fhsda0v28MYQ0Y8Jy4QW"
 		}],
 
 		travel: [{
